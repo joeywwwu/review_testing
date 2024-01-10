@@ -26,7 +26,7 @@ kable(accomp_pilots,
   col.names = c("Character", "Number of Starships piloted"))
 ```
 
-By far, the most accomplished pilot of all is `r accomp_pilots$name[1]`. He is shown below piloting a starship.
+By far, the most accomplished pilot of all is `r accomp_pilots$name[1]`. He is shown below piloting a starship. okok
 
 ```{r top-pilot, fig.cap="Most accomplished Star Wars pilot.", out.width = "100%"}
 include_graphics("https://starwarz.com/tbone/wp-content/uploads/2011/08/331.jpg")
